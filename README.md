@@ -46,6 +46,6 @@ cd Projects/<project-name>
 * Description: A feature-rich to-do list app for managing tasks effectively.
 * Technologies: HTML, CSS, JavaScript, React.
 * Features:
-  * Add, delete, and complete tasks.
+    * Add, delete, and complete tasks.
     * Categorize tasks with images.
     * Track daily tasks with a progress display.
