@@ -3,6 +3,7 @@
 Welcome to my Portfolio Repository! This repository serves as a central hub for my projects, experiments, and contributions. It's a showcase of my journey as a developer, designer, and creator
 
 ## About
+
 This repository is a curated collection of:
 
 * Personal Projects: Applications and tools I’ve built to solve real-world problems or explore ideas
@@ -10,6 +11,7 @@ This repository is a curated collection of:
 * Contributions: Open-source contributions or collaborations with other developers
 
 ## Structure
+
 The repository is organized as follows:
 
 ```bash
@@ -34,3 +36,16 @@ git clone https://github.com/Senu-sesi2/Portfolio
 ```bash
 cd Projects/<project-name>
 ```
+
+3. Follow the instructions in each project’s README to understand and run it.
+
+## Highlighted Projects
+
+1. [NextToDo](https://github.com/Senu-sesi2/NextToDo)
+
+* Description: A feature-rich to-do list app for managing tasks effectively.
+* Technologies: HTML, CSS, JavaScript, React.
+* Features:
+  * Add, delete, and complete tasks.
+    * Categorize tasks with images.
+    * Track daily tasks with a progress display.
