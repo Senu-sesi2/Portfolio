@@ -27,4 +27,4 @@ For inquiries, suggestions, or support, feel free to reach out:
 
 [Email](senu.e30@gmail.com)
 
-[Demo img](/preview.png)
+![Demo img](preview.png)
