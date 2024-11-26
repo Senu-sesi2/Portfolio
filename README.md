@@ -41,7 +41,7 @@ cd Projects/<project-name>
 
 ## Highlighted Projects
 
-1. [NextToDo](https://github.com/Senu-sesi2/NextToDo)
+1. [NextToDo](https://github.com/Senu-sesi2/Portfolio/tree/main/NextToDo)
 
 * Description: A feature-rich to-do list app for managing tasks effectively.
 * Technologies: HTML, CSS, JavaScript, React.
