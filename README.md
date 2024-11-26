@@ -52,6 +52,6 @@ cd Projects/<project-name>
 
 ## Contact
 For inquiries, suggestions, or support, feel free to reach out:
-    * Name: Emmanuel Senu Mensah
+* Name: Emmanuel Senu Mensah
 
-[Email](senu.e30@gmail.com)
+* [Email](senu.e30@gmail.com)
