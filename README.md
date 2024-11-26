@@ -49,3 +49,9 @@ cd Projects/<project-name>
     * Add, delete, and complete tasks.
     * Categorize tasks with images.
     * Track daily tasks with a progress display.
+
+## Contact
+For inquiries, suggestions, or support, feel free to reach out:
+    Name: Emmanuel Senu Mensah
+
+[Email](senu.e30@gmail.com)
