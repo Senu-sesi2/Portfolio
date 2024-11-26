@@ -21,10 +21,4 @@ NextToDo is a simple, efficient to-do app designed to help you stay organized an
 4. Remove unwanted tasks with the delete function.
 5. Check your daily task count to stay on track.
 
-## Contact
-For inquiries, suggestions, or support, feel free to reach out:
-    Name: Emmanuel Senu Mensah
-
-[Email](senu.e30@gmail.com)
-
 ![Demo img](preview.png)
