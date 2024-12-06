@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form>
+        <h3 class="form-title">PayPort</h3>
+        <div class="row">
+            <!-- Billing Address Section -->
+            <div class="column billing-address">
+                <h3 class="title">Billing Address</h3>
+                <div class="input-box">
+                    <span>Full Name:</span>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+                <div class="input-box">
+                    <span>Email:</span>
+                    <input type="email" placeholder="example@gmail.com">
+                </div>
+                <div class="input-box">
+                    <span>Address:</span>
+                    <input type="text" placeholder="Street name, house number">
+                </div>
+                <div class="flex">
+                    <div class="input-box">
+                        <span>City:</span>
+                        <select id="city">
+                            <option value="New York">New York</option>
+                            <option value="London">London</option>
+                            <option value="Tokyo">Tokyo</option>
+                            <option value="Accra">Accra</option>
+                            <option value="Kumasi">Kumasi</option>
+                            <option value="Ho">Ho</option>
+                            <option value="Tarkoradi">Tarkoradi</option>
+                            <option value="Tema">Tema</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span>State:</span>
+                        <select id="state">
+                            <option value="Ghana">Ghana</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="China">China</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span>Zip Code:</span>
+                        <select id="zipcode">
+                            <option value="00233">00233</option>
+                            <option value="10001">10001</option>
+                            <option value="SW1A 1AA">SW1A 1AA</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment Section -->
+            <div class="column payment">
+                <h3 class="title">Payment</h3>
+                <div class="input-box">
+                    <span>Cards Accepted:</span>
+                    <div class="cards">
+                        <img src="https://worldvectorlogo.com/logos/mastercard-4.svg" alt="Mastercard">
+                        <img src="https://worldvectorlogo.com/logos/visa-5.svg" alt="Visa">
+                        <!-- <img src="https://cdn.worldvectorlogo.com/logos/paypal-pure-.svg" alt="PayPal"> -->
+                    </div>
+                </div>
+                <div class="input-box">
+                    <span>Name on Card:</span>
+                    <input type="text" 
+                    placeholder="Enter name on card">
+                </div>
+                <div class="input-box">
+                    <span>Credit Card Number:</span>
+                    <input type="text" id="card-number" 
+                    placeholder="Enter card number">
+                    <span id="card-type"></span>
+                </div>
+                <div class="flex">
+                    <div class="input-box">
+                        <span>Exp. Month:</span>
+                        <select id="month">
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span>Exp. Year:</span>
+                        <select id="year">
+                            <!-- Dynamic years starting from 2025 -->
+                            <script>
+                                for (let year = 2025; year <= 2050; year++) {
+                                    document.write(`<option value="${year}">${year}</option>`);
+                                }
+                            </script>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span>CVV:</span>
+                        <input type="number" placeholder="Enter CVV">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+
+<script defer src="script.js"></script>
+</body>
+</html>
