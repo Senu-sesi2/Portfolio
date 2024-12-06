@@ -7,12 +7,12 @@ PayPort is a responsive payment gateway application designed to provide a seamle
 * Billing Address Column: Easily input and manage customer billing details.
 * Payment Options:
   * Supports major card types, including:
-        *Credit Cards
-        *Visa
-        *MasterCard
-    * Input fields for:
-        *Card Number
-        *CVV
+    * Credit Cards
+    * Visa
+    * MasterCard
+  * Input fields for:
+    * Card Number
+    * CVV
 * Responsiveness: Designed to deliver a consistent user experience across all devices and screen sizes.
 
 ## Technologies Used
