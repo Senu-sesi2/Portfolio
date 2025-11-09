@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18233d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3.form-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto 20px; /* Center horizontally and add spacing below */
+    background-color: #cc8f00;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block; /* Ensures it takes only as much width as necessary */
+}
+
+h3.form-title:hover {
+    background-color: #b90000;
+}
+
+
+.row {
+    display: flex;
+    gap: 50px; /* Increased gap between columns */
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 1 45%; /* Allow columns to shrink and grow based on available space */
+    min-width: 300px;
+}
+
+.column .title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #555;
+}
+
+.input-box input,
+.input-box select {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-box select {
+    padding: 12px;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: #bbb; /* This is where the placeholder text color is set */
+}
+
+
+.btn {
+    background-color: #cc8f00;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b90000;
+}
+
+/* Add background color to input fields */
+input, select {
+    background-color: #f5f5f5; /* Light gray background */
+    border: 1px solid #ccc;    /* Border color */
+    border-radius: 6px;        /* Rounded corners */
+    padding: 10px 15px;        /* Padding inside the input fields */
+    font-size: 15px;           /* Font size */
+}
+
+/* Lighter placeholder text */
+input::placeholder {
+    color: #ddd;  /* Lighter placeholder text */
+}
+
+/* Add focus effect (when input is clicked or focused) */
+input:focus, select:focus {
+    outline: none;               /* Remove the default focus outline */
+    border-color: #cc8f00;       /* Set a custom border color when focused */
+    background-color: #fff;      /* Change background color to white when focused */
+}
+
+
+/* Style for select placeholder-like options */
+select option[hidden] {
+    color: #aaa; /* Placeholder-like light gray */
+}
+
+
