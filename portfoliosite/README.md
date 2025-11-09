@@ -87,6 +87,7 @@ npm start
 
 ## Project Structure
 
+```bash
 myportfolio/
 ├── node_modules/
 ├── public/
@@ -102,6 +103,7 @@ myportfolio/
 ├── package.json
 ├── README.md
 └── .gitignore
+```
 
 ---
 
