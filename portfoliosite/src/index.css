@@ -10,3 +10,33 @@
 body {
   background: black;
 }
+
+h1, h4, p, a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: cyan;
+  border: 1px solid whitesmoke;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: whitesmoke;
+}
+
+btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: whitesmoke;
+  transition: 0.3s;
+}
