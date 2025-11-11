@@ -18,6 +18,10 @@
     font-weight: 500;
 }
 
+.humburger {
+    display: none;
+}
+
 @media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;
@@ -28,8 +32,13 @@
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
+        transition: 0.4s;
+    }
+
+    .nav-menu.active{
+        left: 0;
     }
 
     .nav-menu li {
@@ -39,4 +48,8 @@
      .nav-menu li a {
         font-size: 2rem;
      }
+
+     .humburger {
+    display: initial;
+}
 }
