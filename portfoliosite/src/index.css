@@ -28,6 +28,7 @@ ul{
   border: 1px solid whitesmoke;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn-light {
@@ -35,8 +36,8 @@ ul{
   color: whitesmoke;
 }
 
-btn:hover {
+.btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: whitesmoke;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
