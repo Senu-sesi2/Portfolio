@@ -10,10 +10,10 @@ const HeroImg = () => {
             <img className="port" src={PortImg} 
             alt="Software engineer in software engineering setting" />
         </div>
-      <div>
-        <p>Hi, <img width="48" height="48" 
+      <div className="content">
+        <p>Hi, I am Emmanuel Mensah <img width="48" height="48" 
         src="https://img.icons8.com/emoji/48/waving-hand-light-skin-tone.png" 
-        alt="waving-hand-light-skin-tone"/>I am Emmanuel Mensah</p>
+        alt="waving-hand-light-skin-tone"/></p>
         <h1>A Software Engineer.</h1>
         <div>
           <Link to="/project" className="btn">PROJECTS</Link>
