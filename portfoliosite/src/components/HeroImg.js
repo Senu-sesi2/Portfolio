@@ -11,13 +11,14 @@ const HeroImg = () => {
             alt="Software engineer in software engineering setting" />
         </div>
       <div className="content">
-        <p>Hi, I am Emmanuel Mensah <img width="48" height="48" 
+        <p><img width="48" height="48" 
         src="https://img.icons8.com/emoji/48/waving-hand-light-skin-tone.png" 
         alt="waving-hand-light-skin-tone"/></p>
-        <h1>A Software Engineer.</h1>
+        <p>Hi, I'm Emmanuel Mensah</p>
+        <h1>Junior Software Engineer</h1>
         <div>
-          <Link to="/project" className="btn">PROJECTS</Link>
-          <Link to="/contact" className="btn btn-light">CONTACT</Link>
+          <Link to="/project" className="btn">Projects</Link>
+          <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>
       </div>
     </div>

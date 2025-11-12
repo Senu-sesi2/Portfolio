@@ -27,6 +27,35 @@
     font-weight: 500;
 }
 
+.nav-menu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: whitesmoke;
+  position: relative;
+  transition: color 0.3s ease; /* smooth color fade */
+}
+
+.nav-menu li a:hover {
+  color: rgb(1, 92, 122); /* or any accent color you like */
+}
+
+/* Optional: animated underline effect */
+.nav-menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: rgb(1, 92, 122);
+  transition: width 0.3s ease;
+}
+
+.nav-menu li a:hover::after {
+  width: 100%;
+}
+
+
 .humburger {
     display: none;
 }
