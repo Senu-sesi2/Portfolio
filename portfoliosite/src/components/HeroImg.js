@@ -14,7 +14,7 @@ const HeroImg = () => {
         <p><img width="48" height="48" 
         src="https://img.icons8.com/emoji/48/waving-hand-light-skin-tone.png" 
         alt="waving-hand-light-skin-tone"/></p>
-        <p>Hi, I'm Emmanuel Mensah</p>
+        <p>Hi, I'm Emmanuel Senu Mensah</p>
         <h1>Junior Software Engineer</h1>
         <div>
           <Link to="/project" className="btn">Projects</Link>

@@ -5,6 +5,9 @@ import { FaBars, FaTimes } from "react-icons/fa"
 
 import React, { useState } from 'react'
 
+import Logo1 from "../assets/logo2.png";
+
+
 
 const Navbar = () => {
 
@@ -25,7 +28,8 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg": "header"}>
-        <Link to="/">
+        <Link to="/" className="logo">
+        <img src={Logo1} alt="logo" className="logo-img" />
             <h1>Portfolio</h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
