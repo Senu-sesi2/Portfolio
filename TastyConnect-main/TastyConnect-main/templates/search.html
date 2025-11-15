@@ -1,0 +1,27 @@
+<!-- results.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Search Results</title>
+</head>
+<body>
+    <h1>Recipe Search Results</h1>
+    
+    {% if recipes %}
+        <ul>
+            {% for recipe in recipes %}
+            <li>
+                <h2>{{ recipe.recipe.label }}</h2>
+                <p>Ingredients: {{ recipe.recipe.ingredientLines }}</p>
+                <p>Instructions: {{ recipe.recipe.url }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No recipes found.</p>
+    {% endif %}
+    
+    <a href="/">Back to Home</a>
+</body>
+</html>

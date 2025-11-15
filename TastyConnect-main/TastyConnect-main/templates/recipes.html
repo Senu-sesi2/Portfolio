@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="/static/css/recipes.css" rel="stylesheet">
+    <title>Recipes</title>
+    <style>
+        .recipe-image {
+            width: 300px; 
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Recipes</h1>
+
+
+    {% for recipe in recipes %}
+        <div class="recipe">
+            <h2>{{ recipe.title }}</h2>
+            <p><strong>Ingredients:</strong></p>
+            <p>{{ recipe.ingredients }}</p>
+            <p><strong>Instructions:</strong></p>
+            <p>{{ recipe.instructions }}</p>
+            <p><strong>Nutritional Value:</strong></p>
+            <p>{{ recipe.nutritional_value }}</p>
+            <p><strong>Dietary Restrictions:</strong></p>
+            <p>{{ recipe.dietary_restrictions }}</p>
+            <p><strong>Cuisine Area:</strong></p>
+            <p>{{ recipe.cuisine_area }}</p>
+            {% if recipe.image %}
+                <img src="{{ url_for('uploaded_file', filename=recipe.image) }}" alt="Recipe Image" class="recipe-image">
+            {% else %}
+                <p>No image available</p>
+            {% endif %}
+        </div>
+        <hr>
+    {% endfor %}
+
+    <a href="/">Back to Home</a>
+</body>
+</html>

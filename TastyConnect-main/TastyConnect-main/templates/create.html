@@ -1,0 +1,60 @@
+<!-- create.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Recipe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet" />
+            <link href="/static/css/create.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Create Recipe</h1>
+    {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+    {% endif %}
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="success-message">
+                {% for message in messages %}
+                    {{ message }}
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+    <form method="POST" action="/create" enctype="multipart/form-data">
+        <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required></div>
+         <br>
+        <div> 
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" required></textarea> </div>
+        <div>
+        <br>
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" required></textarea></div>
+        <div> 
+        <br>
+        <label for="nutritional_value">Nutritional Value:</label>
+        <textarea id="nutritional_value" name="nutritional_value" required></textarea></div>
+        <div><br>
+        <label for="dietary_restrictions">Dietary Restrictions:</label>
+        <textarea id="dietary_restrictions" name="dietary_restrictions" required></textarea></div>
+        <div><br>
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image"></div>
+        <br>
+        <button type="submit">Submit Recipe</button>
+    </form>
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
+
