@@ -13,6 +13,9 @@ const HeroSec = () => {
             src={HeroImg} alt="Software Engineer in software development setting"/>
         </div>
         <div className="content">
+          <p><img width="48" height="48" 
+        src="https://img.icons8.com/emoji/48/waving-hand-light-skin-tone.png" 
+        alt="waving-hand-light-skin-tone"/></p>
             <p>HI, I'M EMMANUEL SENU MENSAH</p>
             <h1>Junior Software Engineer</h1>
             <div>
