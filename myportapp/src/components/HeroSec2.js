@@ -13,7 +13,7 @@ class HeroSec2 extends Component {
     </div>
   )
 }
-    }
+}
   
 
 export default HeroSec2

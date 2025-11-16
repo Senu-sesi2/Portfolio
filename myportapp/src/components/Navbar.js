@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 
 import {FaBars, FaTimes} from "react-icons/fa"
 
+import Logo1 from "../assets/logo.png";
+
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -23,7 +25,8 @@ window.addEventListener("scroll", changeColor);
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
+      <Link to="/" className="logo">
+      <img src={Logo1} alt="logo" className="logo-img"/>
         <h1>Portfolio</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
