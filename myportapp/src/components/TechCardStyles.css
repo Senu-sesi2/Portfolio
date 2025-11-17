@@ -31,7 +31,7 @@
 
 .card p{
     padding: 10px 0;
-    padding-bottom: 1.4rem;
+    padding-bottom: 1.6rem;
 }
 
 .bar{
@@ -47,12 +47,12 @@
     padding: 1rem 0;
 }
 
-.btn2{
+/* .btn{
     display: block;
     width: 80%;
     margin: 2rem auto;
     padding-bottom: 2rem;
-}
+} */
 
 @media screen and (max-width: 740px) {
         .card-container{
