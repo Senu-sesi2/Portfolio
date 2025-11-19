@@ -47,11 +47,11 @@
     padding: 1rem 0;
 }
 
-/* .btn{
-    display: block;
-    width: 80%;
-    margin: 2rem auto;
-} */
+.btn{
+    /* display: block; */
+    width: 100%;
+    margin: 1rem auto;
+}
 
 @media screen and (max-width: 740px) {
         .card-container{
