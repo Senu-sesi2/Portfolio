@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
 }
 
 .card{
@@ -31,7 +31,6 @@
 
 .card p{
     padding: 10px 0;
-    padding-bottom: 1.6rem;
 }
 
 .bar{
@@ -49,8 +48,8 @@
 
 .card .btn{
     display: block;
-    width: 100%;
-    margin: 1rem auto;
+    width: 80%;
+    margin: 2rem auto;
 }
 
 @media screen and (max-width: 740px) {
