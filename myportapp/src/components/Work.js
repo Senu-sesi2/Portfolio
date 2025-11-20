@@ -1,25 +1,27 @@
 import "./WorkCardStyles.css"
+import WorkCard from "./WorkCard"
+import WorkCardData from "./WorkCardData"
 
 import React from 'react'
-import pro1 from "../assets/project1.png"
-import { NavLink } from "react-router-dom"
+// import pro1 from "../assets/project1.png"
+// import { NavLink } from "react-router-dom"
 
 const Work = () => {
   return (
     <div className="work-container">
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
-            <div className="project-card">
-                <img src={pro1} alt="responsive to-do app" />
-                <h2 className="project-title">Project Title</h2>
-                <div className="pro-details">
-                  <p>This is the test</p>
-                  <div className="pro-btns">
-                    <NavLink to="url.com" className="btn">Learn More</NavLink>
-                    <NavLink to="url.com" className="btn">Comment</NavLink>
-                  </div>
-                </div>
-            </div>
+            {WorkCardData.map((val, ind) =>{
+              return(
+                <WorkCard
+                key={ind}
+                imgsrc={val.imgsrc}
+                title={val.title}
+                text={val.text}
+                learnmore={val.learnmore}
+                />
+              )
+            })}
         </div>
     </div>
   )
