@@ -13,15 +13,37 @@
     /* padding-bottom: 3rem; */
 }
 
-.card{
+/* .card{
     border: 1px solid whitesmoke;
     color: #eee;
     text-align: center;
     padding: 2rem;
+} */
+
+.card {
+    border: 1px solid whitesmoke;
+    color: #eee;
+    text-align: center;
+    padding: 2rem;
+    background: rgb(2, 18, 32);
+
+    /* Zoom effect essentials */
+    transition: transform 0.35s ease, 
+                box-shadow 0.35s ease,
+                background-color 0.35s ease;
+    transform-origin: center;
 }
 
 .card:hover{
     background-color: #011c35;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    background-color: #011c35;
+
+    /* soft lighting effect */
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.45);
 }
 
 .card h3{
