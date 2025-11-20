@@ -42,3 +42,41 @@
     }
 
 }
+
+/* Typing animation for heading */
+.hero2-img h1 {
+  font-size: 2.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff; /* cursor */
+  width: 0;
+  animation: typing 2s steps(12, end) forwards, hideCursor 0.3s 2s forwards;
+}
+
+/* Typing animation for paragraph */
+.hero2-img p {
+  font-size: 1.4rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff; /* cursor */
+  width: 0;
+  animation: typingText 3s steps(25, end) 0.5s forwards, hideCursor 0.3s 3.5s forwards;
+}
+
+/* Keyframes for heading typing */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 8ch; } /* adjust characters */
+}
+
+/* Keyframes for paragraph typing */
+@keyframes typingText {
+  from { width: 0; }
+  to { width: 30ch; } /* adjust characters */
+}
+
+/* Hide cursor after typing */
+@keyframes hideCursor {
+  to { border-right: 0; }
+}
