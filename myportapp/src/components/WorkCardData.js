@@ -3,12 +3,13 @@ import pro2 from "../assets/project2.png"
 import pro3 from "../assets/project3.png"
 import pro4 from "../assets/project4.png"
 import pro5 from "../assets/project5.png"
+import pro6 from "../assets/project6.png"
 
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "Next ToDo Application",
-        text: "NextToDo is a simple, efficient to-do app designed tohelp you stay organized and productive. With intuitive features and a clean interface, it ensures your tasks are easy to manage and prioritize.",
+        title: "Next ToDo - Responsive Application",
+        text: "NextToDo is a simple, efficient to-do app designed tohelp you stay organized and productive. With intuitive features and a clean interface, it ensures your tasks are easy to manage and prioritize. Dynamic functionality and user interactions.",
         learnmore: "https://github.com/Senu-sesi2/Portfolio/tree/main/NextToDo"
     },
     {
@@ -34,6 +35,12 @@ const ProjectCardData = [
         title: "TasteAfric - Webstack-Portfolio-Project",
         text: "TasteAfric is a web application dedicated to showcasing the rich diversity of African cuisine. It offers a platform where users can explore, share, and discover traditional and contemporary African recipes from across the continent.",
         learnmore: "https://github.com/Senu-sesi2/Portfolio/tree/main/taste-afric"
+    },
+    {
+        imgsrc: pro6,
+        title: "Professional Portfolio Application",
+        text: "A personal portfolio website built with React to showcase my projects and contact information. This portfolio demonstrates responsive design, modern web development practices, and interactive UI components. Built with React, React Router Dom, React Icons and CSS/SCSS",
+        learnmore: "https://github.com/Senu-sesi2/Portfolio/tree/main/myportapp"
     },
 ];
 

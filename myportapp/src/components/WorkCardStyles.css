@@ -1,4 +1,4 @@
-.project-heading{
+/* .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
@@ -16,6 +16,7 @@
     background: #1a1919;
     padding: 1.2rem 1rem;
 }
+
 
 .project-card img{
     width: 100%;
@@ -42,10 +43,108 @@
     padding: 0.5rem 1rem;
 }
 
+
 @media screen and (max-width: 740px) {
     .project-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+    }
+} */
+
+
+/* WorkCardStyles.css (replace the file content with this) */
+
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+
+    /* ensure grid items stretch vertically */
+    align-items: stretch;
+}
+
+/* make each card a column flexbox so contents can stretch */
+.project-card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* lets align-items:stretch on grid make them equal */
+    box-sizing: border-box;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;    /* NEW */
+    cursor: pointer;    /* NEW */
+}
+
+/* make the image behave (no extra inline gap) and limit height so cards remain consistent */
+.project-card img{
+    width: 100%;
+    display: block;
+    height: 180px;        /* adjust this value to taste */
+    object-fit: cover;    /* crop image to fill area without stretching */
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+}
+
+/* title and details */
+.project-title{
+    color: whitesmoke;
+    padding: 1rem 0 0.5rem 0;
+}
+
+/* allow pro-details to take remaining vertical space so buttons stick to bottom */
+.pro-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;              /* fills available vertical space */
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 0;            /* important to avoid extra margins */
+}
+
+/* keep buttons row at the bottom of the card */
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0 0;
+    margin-top: auto; /* ensures buttons remain at the bottom if more content added */
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgba(4, 222, 238, 0.6),
+                0 0 40px rgba(0, 132, 255, 0.4),
+                0 15px 25px rgba(0,0,0,0.5);
+}
+
+
+/* responsive */
+@media screen and (max-width: 740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img{
+        height: 220px; /* lets mobile images be taller — tweak as needed */
     }
 }
