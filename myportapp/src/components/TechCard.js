@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import "./TechCardStyles.css"
 
 import React from 'react'
@@ -38,9 +38,9 @@ const TechCard = () => {
                 <p>- ALX -</p>
                 <p>- Google -</p>
                 <p>- Udemy -</p>
-                <Link to="/contact" className="btn">
+                <NavLink to="https://drive.google.com/drive/folders/1Y3yT3C3CAeRIIQG0wY83wtCqnkEiAa6y?usp=sharing" className="btn">
                     LEARN MORE
-                </Link>
+                </NavLink>
             </div>
         </div>
     </div>
