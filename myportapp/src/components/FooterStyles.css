@@ -50,6 +50,36 @@ p{
     font-size: 1.2rem;
 }
 
+/* Social icons: anchor + svg styling */
+.social a {
+  color: whitesmoke;                 /* icons use currentColor */
+  display: inline-block;             /* allow transform on child */
+  margin-right: 0.6rem;
+  transition: color 0.25s ease;      /* color transition on anchor */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ensure svg responds to transforms & filter */
+.social a .icon {
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.28s ease, filter 0.28s ease;
+  will-change: transform, filter;
+}
+
+/* hover state triggered on the anchor (more reliable) */
+.social a:hover {
+  color: #00aaff; /* desired color on hover */
+}
+
+/* apply transform & glow when anchor is hovered */
+.social a:hover .icon {
+  transform: scale(1.18);                               /* zoom */
+  filter: drop-shadow(0 0 12px rgba(0, 170, 255, 0.7)); /* glow */
+}
+
+
 @media screen and (max-width: 640px) {
     .footer-container{
     grid-template-columns: 1fr;
