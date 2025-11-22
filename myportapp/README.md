@@ -7,13 +7,13 @@ A personal portfolio website built with **React** to showcase my projects and co
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Screenshot](#screenshot)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](usage)
 - [Project Structure](#project-structure)
 - [Contribution](#contributing)
-- [Screenshot](#screenshot)
 - [License](#license)
 - [Contact](#contact)
 
@@ -31,6 +31,10 @@ This portfolio website is designed to present my professional work and personal 
 The portfolio is fully responsive and works on desktops, tablets and mobile devices.
 
 ---
+
+## Screenshot
+
+![Project Screenshot](screenshot.png)
 
 ## Features
 
@@ -117,10 +121,6 @@ Contributins are welcome! You can:
 - Make your changes and commit (```git commit -m "Add some features"```)
 - Push to the branch (```git push origin feature/Your Feature```)
 - Open a pull request
-
-## Screenshot
-
-![Project Screenshot](screenshot.png)
 
 ## License
 
