@@ -13,6 +13,7 @@ A personal portfolio website built with **React** to showcase my projects and co
 - [Usage](usage)
 - [Project Structure](#project-structure)
 - [Contribution](#contributing)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Contact](#contact)
 
@@ -116,6 +117,10 @@ Contributins are welcome! You can:
 - Make your changes and commit (```git commit -m "Add some features"```)
 - Push to the branch (```git push origin feature/Your Feature```)
 - Open a pull request
+
+## Screenshot
+
+![Project Screenshot](assets/project6.png)
 
 ## License
 
