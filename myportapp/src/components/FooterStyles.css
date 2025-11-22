@@ -85,7 +85,7 @@ p{
 
 @media screen and (max-width: 640px) {
     .footer {
-        padding: 3rem 1rem; /* reduce padding on small screens */
+        padding: 2rem 0.8rem; /* reduce padding on small screens */
     }
 
     .footer-container {
@@ -95,7 +95,7 @@ p{
     }
 
     .left, .right {
-        padding: 0.5rem;
+        padding: 0.3rem;
         align-items: center; /* center icons and text */
     }
 
