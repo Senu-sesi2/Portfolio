@@ -120,7 +120,7 @@ Contributins are welcome! You can:
 
 ## Screenshot
 
-![Project Screenshot](assets/project6.png)
+![Project Screenshot](assets/screenshot.png)
 
 ## License
 
