@@ -1,60 +1,3 @@
-/* .project-heading{
-    text-align: center;
-    padding: 4rem 0 2rem 0;
-}
-
-.project-container{
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    padding-bottom: 5rem;
-}
-
-.project-card{
-    background: #1a1919;
-    padding: 1.2rem 1rem;
-}
-
-
-.project-card img{
-    width: 100%;
-}
-
-.project-title{
-    color: whitesmoke;
-    padding: 1rem 0;
-}
-
-.pro-details p{
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    text-align: justify;
-}
-
-.pro-btns{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-}
-
-.pro-btns .btn{
-    padding: 0.5rem 1rem;
-}
-
-
-@media screen and (max-width: 740px) {
-    .project-container{
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-} */
-
-
-/* WorkCardStyles.css (replace the file content with this) */
-
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
@@ -79,9 +22,9 @@
 
     display: flex;
     flex-direction: column;
-    height: 100%; /* lets align-items:stretch on grid make them equal */
+    height: 100%; 
     box-sizing: border-box;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;    /* NEW */
+    transition: transform 0.25s ease, box-shadow 0.25s ease;    
     cursor: pointer;    /* NEW */
 }
 
@@ -89,13 +32,13 @@
 .project-card img{
     width: 100%;
     display: block;
-    height: 180px;        /* adjust this value to taste */
-    object-fit: cover;    /* crop image to fill area without stretching */
+    height: 180px;        
+    object-fit: cover;    
     border-radius: 4px;
     margin-bottom: 0.75rem;
 }
 
-/* title and details */
+
 .project-title{
     color: whitesmoke;
     padding: 1rem 0 0.5rem 0;
@@ -106,17 +49,16 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    flex: 1;              /* fills available vertical space */
+    flex: 1; 
 }
 
 .pro-details p{
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
-    margin: 0;            /* important to avoid extra margins */
+    margin: 0;
 }
 
-/* keep buttons row at the bottom of the card */
 .pro-btns{
     display: flex;
     justify-content: center;
@@ -145,6 +87,6 @@
     }
 
     .project-card img{
-        height: 220px; /* lets mobile images be taller — tweak as needed */
+        height: 220px; 
     }
 }

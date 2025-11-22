@@ -159,7 +159,7 @@
 /* small accessibility + focus */
 .modal-close:focus, .modal-arrow:focus { outline: 2px solid rgba(0,170,255,0.3); outline-offset: 3px; }
 
-/* hint text (optional): you can show small instruction */
+
 .modal-hint {
   position: absolute;
   bottom: 14px;

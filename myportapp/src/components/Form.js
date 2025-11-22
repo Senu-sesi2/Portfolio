@@ -37,7 +37,6 @@ emailjs.sendForm(
 
 return ( <div className="form"> <form ref={form} onSubmit={sendEmail}> <label>Your Name</label> <input type="text" name="user_name" required />
 
-```
     <label>Email</label>
     <input type="email" name="user_email" required />
 
