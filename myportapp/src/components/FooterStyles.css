@@ -50,12 +50,11 @@ p{
     font-size: 1.2rem;
 }
 
-/* Social icons: anchor + svg styling */
 .social a {
-  color: whitesmoke;                 /* icons use currentColor */
-  display: inline-block;             /* allow transform on child */
+  color: whitesmoke;   
+  display: inline-block; 
   margin-right: 0.6rem;
-  transition: color 0.25s ease;      /* color transition on anchor */
+  transition: color 0.25s ease;
   text-decoration: none;
   cursor: pointer;
 }
@@ -68,20 +67,58 @@ p{
   will-change: transform, filter;
 }
 
-/* hover state triggered on the anchor (more reliable) */
 .social a:hover {
-  color: #00aaff; /* desired color on hover */
+  color: #00aaff;
 }
 
-/* apply transform & glow when anchor is hovered */
 .social a:hover .icon {
-  transform: scale(1.18);                               /* zoom */
-  filter: drop-shadow(0 0 12px rgba(0, 170, 255, 0.7)); /* glow */
+  transform: scale(1.18);
+  filter: drop-shadow(0 0 12px rgba(0, 170, 255, 0.7)); 
 }
 
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     .footer-container{
     grid-template-columns: 1fr;
 }
+} */
+
+@media screen and (max-width: 640px) {
+    .footer {
+        padding: 3rem 1rem; /* reduce padding on small screens */
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px; /* smaller gap */
+        text-align: center; /* center content */
+    }
+
+    .left, .right {
+        padding: 0.5rem;
+        align-items: center; /* center icons and text */
+    }
+
+    .location {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .location p {
+        line-height: 1.4rem;
+    }
+
+    h4, p {
+        font-size: 1rem; /* smaller text on mobile */
+    }
+
+    .social {
+        justify-content: center; /* center icons */
+        margin-top: 1rem;
+    }
+
+    .social a {
+        margin: 0 0.5rem; /* reduce spacing between icons */
+    }
 }
