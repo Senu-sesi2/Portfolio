@@ -3,13 +3,18 @@
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 👩🏻‍💻 [Introduction](#introduction)
-2. ⚛ [Tech Stack](#tech-stack)
-2. 🛠️ [Features](#features)
-4. ✍ [Author](#author)
+2. [Screenshot](#screenshot)
+3. ⚛ [Tech Stack](#tech-stack)
+4. 🛠️ [Features](#features)
+5. ✍ [Author](#author)
 
 ## <a name="introduction">👩🏻‍💻 Introduction</a>
 
 TasteAfric is a web application dedicated to showcasing the rich diversity of African cuisine. It offers a platform where users can explore, share, and discover traditional and contemporary African recipes from across the continent. Whether you're looking to cook a savory West African jollof rice or a sweet Moroccan dessert, TasteAfric brings Africa's vibrant culinary heritage to your kitchen.
+
+## Screenshot
+
+![Project Screenshot](screenshot.png)
 
 ## <a name="tech-stack">⚛ Tech Stack</a>
 
@@ -27,8 +32,7 @@ TasteAfric is a web application dedicated to showcasing the rich diversity of Af
 
 👉 **Step-by-step instructions**: Images and tips to guide users in preparing delicious African dishes.
 
-
 ## <a name="author">✍ Author</a>
+
 - ⋆˚࿔ 𝐧𝐚𝐦𝐞 𝜗𝜚˚⋆: Emmanuel Senu Mensah
 - [📨Email](senu.e30@gmail.com)
-
