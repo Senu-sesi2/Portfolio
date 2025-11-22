@@ -1,4 +1,4 @@
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 import "./FooterStyles.css";
 import React from 'react';
 
@@ -54,6 +54,9 @@ const Footer = () => {
             </a>
             <a href="https://linkedin.com/in/senu-e30" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="icon" size={30} />
+            </a>
+            <a href="https://github.com/Senu-sesi2" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="icon" size={30} />
             </a>
         </div>
 
