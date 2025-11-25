@@ -13,7 +13,7 @@ A personal portfolio website built with **React** to showcase my projects and co
 - [Installation](#installation)
 - [Usage](usage)
 - [Project Structure](#project-structure)
-- [Contribution](#contributing)
+- [Contribution](#contribution)
 - [License](#license)
 - [Contact](#contact)
 
@@ -112,9 +112,9 @@ myportfolio/
 
 ---
 
-## Contributing
+## Contribution
 
-Contributins are welcome! You can:
+Contributions are welcome! You can:
 
 - Fork the repo
 - Create a new branch (```git checkout -b feature/YourFeature```)

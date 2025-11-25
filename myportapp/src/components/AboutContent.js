@@ -10,7 +10,7 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-          I'm certified Software Engineer with a passion for building scalable
+          I'm a certified Software Engineer with a passion for building scalable
           systems and a unique expertise in leveraging AI and data analytics to solve
           complex business challenges. My background is complemented by certified skills
           in digital marketing, allowing me to bridge the gap between technical development and business growth.
