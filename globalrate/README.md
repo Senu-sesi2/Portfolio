@@ -1,6 +1,6 @@
-# My Portfolio
+# Currency Converter – React Application
 
-A personal portfolio website built with **React** to showcase my projects and contact information. This portfolio demonstrates responsive design, modern web development practices, and interactive UI components.
+A simple and efficient currency converter built with React to help users quickly convert between different currencies using real-time exchange rates. The app is designed with a clean UI, fast performance, and easy usability.
 
 ---
 
@@ -13,7 +13,6 @@ A personal portfolio website built with **React** to showcase my projects and co
 - [Installation](#installation)
 - [Usage](usage)
 - [Project Structure](#project-structure)
-- [Contribution](#contribution)
 - [License](#license)
 - [Contact](#contact)
 
@@ -21,14 +20,8 @@ A personal portfolio website built with **React** to showcase my projects and co
 
 ## Project Overview
 
-This portfolio website is designed to present my professional work and personal projects in a clean, user-friendly interface. It includes sections for:
-
-- Home
-- Projects
-- About
-- Contact
-
-The portfolio is fully responsive and works on desktops, tablets and mobile devices.
+This project allows users to convert an amount from one currency to another using up-to-date exchange rates.
+It is built to be lightweight, responsive, and easy to extend for more currencies or additional financial tools.
 
 ---
 
@@ -38,22 +31,23 @@ The portfolio is fully responsive and works on desktops, tablets and mobile devi
 
 ## Features
 
-- Modern **React** front-end development
-- Responsive design using **CSS / Flexbox / Grid**
-- Interactive navigation bar with hamburger menu for mobile
-- Project showcase with images and descriptions
-- Contact form integration
-- Clean and maintainable project structure
+- Real-time currency conversion
+- Clean and user-friendly React interface
+- Responsive design for desktop and mobile
+- Dropdown selection of currencies
+- Automatic exchange rate fetching
+- Fast and lightweight UI components
+- Clear and maintainable code structurere
 
 ---
 
 ## Technologies Used
 
-- **React** - Front-end library for building user interfaces
-- **React Router DOM** - For page navigation and routing
-- **React Icons** - Icon library for UI components
-- **CSS / SCSS** - Styling and layout
-- **Git & GitHub** - Version control
+- React – Front-end UI library
+- Fetch API / Axios – For calling the exchange-rate API
+- CSS / Flexbox / Grid – For layout and styling
+- React Icons (optional)
+- Git & GitHub – Version control
 
 ---
 
@@ -63,7 +57,7 @@ The portfolio is fully responsive and works on desktops, tablets and mobile devi
 
 ```bash
 git clone https://github.com/Senu-sesi/Portfolio.git
-cd Portfolio
+cd globalrate
 ```
 
 2.**Install dependencies**
@@ -84,16 +78,19 @@ npm start
 
 ## Usage
 
-- Navigate through the Home, Project, About and Contact sections.
-- Add your own project, skills or modify content in the ```src``` folder.
-- Customize styles in ```index.css``` or create separate component-specific CSS files
+- Enter the amount you want to convert
+- Select the base currency (From)
+- Select the target currency (To)
+- The converted amount is displayed instantly
+- You can edit or switch currencies anytime
+- Feel free to modify components in the src folder to customize the UI
 
 ---
 
 ## Project Structure
 
 ```bash
-myportfolio/
+globalrate/
 ├── node_modules/
 ├── public/
 │   ├── index.html
@@ -112,19 +109,9 @@ myportfolio/
 
 ---
 
-## Contribution
-
-Contributions are welcome! You can:
-
-- Fork the repo
-- Create a new branch (```git checkout -b feature/YourFeature```)
-- Make your changes and commit (```git commit -m "Add some features"```)
-- Push to the branch (```git push origin feature/Your Feature```)
-- Open a pull request
-
 ## License
 
-This project is license under the MIT License - see the LICENSE file for details
+This project is license under the MIT License.
 
 ---
 
